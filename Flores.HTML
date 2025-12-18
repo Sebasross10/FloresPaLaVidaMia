@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Rosas para Karish</title>
+<style>
+    body {
+        background-color: #fff5f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Contenedor del pixel art */
+    .rose {
+        width: 10px;
+        height: 10px;
+        background: #c9184a;
+        box-shadow:
+            /* Flor */
+            10px 0 #c9184a,
+            20px 0 #c9184a,
+            0 10px #c9184a,
+            10px 10px #ff4d6d,
+            20px 10px #c9184a,
+            30px 10px #c9184a,
+
+            10px 20px #ff4d6d,
+            20px 20px #ff758f,
+
+            /* Tallo */
+            20px 30px #2d6a4f,
+            20px 40px #2d6a4f,
+            20px 50px #2d6a4f,
+
+            /* Hojas */
+            10px 40px #40916c,
+            30px 40px #40916c;
+    }
+
+    .roses {
+        display: flex;
+        gap: 60px;
+        margin-bottom: 100px;
+        transform: scale(2);
+    }
+
+    .dedicatoria {
+        font-size: 1.3rem;
+        color: #6a040f;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+</style>
+</head>
+<body>
+
+<div class="roses">
+    <div class="rose"></div>
+    <div class="rose"></div>
+    <div class="rose"></div>
+</div>
+
+<div class="dedicatoria">
+    Para Karish con mucho amor,<br>
+    su inge ❤️
+</div>
+
+</body>
+</html>
